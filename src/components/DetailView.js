@@ -14,7 +14,6 @@ function DetailView() {
   const [starship, setStarship] = useState([]);
 
   useEffect(() => {
-    console.log("props", starShips);
     for (var key in starShips[0]) {
       if (starShips[0][key].name === object.name) {
         object.passengers = starShips[0][key].passengers;
