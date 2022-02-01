@@ -17,7 +17,7 @@ function StarshipDisplay({ info }) {
         Remove
       </Button>
       <Link to="/detail" state={{ object: info }}>
-        Edit
+        <Button className="btn btn-primary">Edit</Button>
       </Link>
 
       <div>{info.name}</div>
